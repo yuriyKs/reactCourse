@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+a {
+  color: lightblue;
+  font-size: 35px;
+}
+
+nav {
+  background-color: darkslategray;
+  padding-inline-start: 15px;
+}
+
+nav a {
+  margin: 15px;
+}
+
+a.active {
+  color: lightyellow;
+  text-decoration: none;
+}
+
+a.activeLink {
+  color: lightyellow;
+  text-decoration: none;
+}
+
+.courselink {
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.courselink:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px 20px;
+  font-size: 30px;
+  border-radius: 5px;
+  margin: 20px;
+  border: 0;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: aqua;
+}

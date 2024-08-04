@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>react hello</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
+    <script>
+      const HW = React.createElement('h1', null, 'Hello from React')
+      const container = document.getElementById('app')
+      const root = ReactDOM.createRoot(container)
+      root.render(HW)
+    </script>
+  </body>
+</html>
